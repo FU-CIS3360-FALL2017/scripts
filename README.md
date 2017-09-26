@@ -30,5 +30,8 @@ your *scripts* folder.
 1. Close your open *BASH* dialog by typing *exit* there.
 1. You may now work on your case study using any tools on your local machine you need.
 ## Restoring your Website Case Study repository to GitHub
-1. 
+1. Right click the *scripts* folder on your local machineand open *BASH Git*.
+1. Type *./restore-gh-repo.sh* followed by the name of the branch to be restored to your case study in GitHub.
+1. Press *enter* and check comments from *git* for errors
+1. Browse to your case study on GitHub to assure that the changes to your development brach have been recorded there.
 
