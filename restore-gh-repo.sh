@@ -20,9 +20,9 @@ else
 	for f in ../work/*
 		do
 			cd $f
-			# git add -A
-			# git commit -m $commitmsg
-			# git push origin $branch
+			git add -A
+			git commit -m $commitmsg
+			git push origin $branch
 			echo "repository: $f"
 			echo "branch    : $1"
 			echo "commit msg: $2"

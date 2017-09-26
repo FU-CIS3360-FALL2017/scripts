@@ -29,10 +29,14 @@ else
 	#   into the work directory and checkout the branch mentioned
 	#   in the second parameter, retoring current directory.
 
-	#  git clone ${url}
-	#  git checkout $brnch
-	cd ../
+	git clone ${url}
 	
-	echo "url:    $url"
-	echo "branch: $brnch"
+	for f in ../work/*
+		do
+			echo "Found work: $f"
+			cd $f
+			git checkout $brnch
+			git branch
+			cd ..
+		done
 fi
