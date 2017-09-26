@@ -11,3 +11,24 @@
     This script will add, commit and push all repositories in the
     sibling directory of the one containing this script called *work*.
     It requires the name of the branch to be restore and a commit message.
+    
+# Usage
+## Cloning the scripts repository
+1. Find a convenient folder on your local Windows machine, perhaps the *Documents* folders.
+1. Create a folder there entitled something like *My3360*: does matter too much as long as its note entitled *work*.
+1. Browse the class organization in GitHub and copy the URL for the repository *scripts*
+1. Right click on that folder from the above step and open *BASH Git*.
+1. Type the git command *Clone* and paste after it the URL for the *scripts* repository
+1. Press the *enter* key and check to see that the reposotory has been cloned to your local machine.
+## Clonging your Website Case Study repository from GitHub
+1. Browse to the class organization in GitHub and copy the URL for your Website Case Study repository.
+1. Right click the *scripts* folder on your local machine and open *BASH Git*.
+1. Type *./get-gh-repo.sh*, paste in the URL for your Website Case Study repository, and type the name of the branch that your have 
+created there in which to do development work, probably something like *chapter4*.
+1. Press *enter* and check that your Website Case Study repository has been cloned into a folder at the same level as 
+your *scripts* folder.
+1. Close your open *BASH* dialog by typing *exit* there.
+1. You may now work on your case study using any tools on your local machine you need.
+## Restoring your Website Case Study repository to GitHub
+1. 
+
