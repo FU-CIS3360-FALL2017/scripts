@@ -19,7 +19,7 @@
 1. Browse the class organization in GitHub and copy the URL for the repository *scripts*
 1. Right click on that folder from the above step and open *BASH Git*.
 1. Type the git command *Clone* and paste after it the URL for the *scripts* repository
-1. Press the *enter* key and check to see that the reposotory has been cloned to your local machine.  
+1. Press the *enter* key and check to see that the reposotory has been cloned to your local machine.
 ## Clonging your Website Case Study repository from GitHub
 1. Browse to the class organization in GitHub and copy the URL for your Website Case Study repository.
 1. Right click the *scripts* folder on your local machine and open *BASH Git*.
@@ -28,7 +28,7 @@ created there in which to do development work, probably something like *chapter4
 1. Press *enter* and check that your Website Case Study repository has been cloned into a folder at the same level as 
 your *scripts* folder.
 1. Close your open *BASH* dialog by typing *exit* there.
-1. You may now work on your case study using any tools on your local machine you need.  
+1. You may now work on your case study using any tools on your local machine you need.
 ## Restoring your Website Case Study repository to GitHub
 1. Right click the *scripts* folder on your local machineand open *BASH Git*.
 1. Type *./restore-gh-repo.sh* followed by the name of the branch to be restored to your case study in GitHub.
