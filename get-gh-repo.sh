@@ -35,7 +35,7 @@ else
 	
 	for f in ../work/*
 		do
-			echo "Found work
+			echo "Found work directory"
 			cd $f
 			git checkout $brnch
 			git branch
