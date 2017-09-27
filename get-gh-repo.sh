@@ -15,7 +15,7 @@ if [ $# -ne 2 ];
 	echo "1. URL of the repository to be cloned"
 	echo "2. The name of the branch to be checked out"
 	echo "To execute run from script directory:"
-	echo "  ./get-gh-repo.sh <url> <branch>>"
+	echo "  ./get-gh-repo.sh <url> <branch>"
 else
 
 	url=$1
