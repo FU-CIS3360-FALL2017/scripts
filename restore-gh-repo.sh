@@ -11,7 +11,9 @@
 
 if [[ $# -ne 2 ]];
 	then
-	echo "This script requires 2 parameter."
+	echo "This script in this file will add, commit and push all repositories in the"
+	echo "  sibling directory of the one containing this script that is named work."
+	echo "Please provide 2 parameters in this order:"
 	echo "1. The name of the branch to be restored"
 	echo "2. The commit message"
 	echo "To execute run from script directory:"
@@ -25,9 +27,9 @@ else
 			git add -A
 			git commit -m $commitmsg
 			git push origin $branch
-			echo "repository: $f"
-			echo "branch    : $1"
-			echo "commit msg: $2"
+			# echo "repository: $f"
+			# echo "branch    : $1"
+			# echo "commit msg: $2"
 			cd ..
 		done
 fi
