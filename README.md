@@ -24,7 +24,7 @@
 1. Press the *enter* key and check to see that the reposotory has been cloned to your local machine.
 ## Clonging your Website Case Study repository from GitHub
 1. Browse to the class organization in GitHub and copy the URL for your Website Case Study repository.
-1. Right click the *scripts* folder on your local machine and open *BASH Git*.
+1. Right click the [scripts]() folder on your local machine and open *BASH Git*.
 1. Type *./get-gh-repo.sh*, paste in the URL for your Website Case Study repository, and type the name of the branch that your have 
 created there in which to do development work, probably something like *chapter4*.
 1. Press *enter* and check that your Website Case Study repository has been cloned into a folder at the same level as 
