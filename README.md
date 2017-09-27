@@ -10,8 +10,8 @@
 
 	This script will add, commit and push all repositories in the
 	  sibling directory of the one containing this script called *work*.
-  	Please  provide 2 parameters in this order:
-   	1. The name of the branch to be checked out
+	Please  provide 2 parameters in this order:
+	1. The name of the branch to be checked out
 	2. A commit message
     
 # Usage
