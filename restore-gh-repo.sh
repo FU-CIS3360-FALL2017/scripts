@@ -14,6 +14,8 @@ if [[ $# -ne 2 ]];
 	echo "This script requires 2 parameter."
 	echo "1. The name of the branch to be restored"
 	echo "2. The commit message"
+	echo "To execute run from script directory:"
+	echo "  ./restore-gh-repo.sh <branch> <commit message>"
 else
 	branch=$1
 	commitmsg=$2
